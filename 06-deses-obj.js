@@ -20,3 +20,4 @@ const useContext = ({clave, latlng, nombre, edad, rango='Capitán'})=> {
 //console.log(nombreClave,anios);
 const {nombreClave,anios, latlng: {lat,lng}} = useContext(persona);
 console.log(nombreClave,anios,lat,lng);
+//
