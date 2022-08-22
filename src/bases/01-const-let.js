@@ -7,4 +7,3 @@ if (valorDado > 4) {
     console.log(valorDado); // Aqui se usa la variable valorDado de ambito mas especifico
 } // En este punto se destruye la variable valorDado de ambito propio al IF
 console.log(nombre, apellido, valorDado);
-//
