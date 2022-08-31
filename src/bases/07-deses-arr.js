@@ -10,6 +10,7 @@ const useState = (valor)=>{
     return [valor,()=>{console.log('Hola amigos')}];
 }
 
+// eslint-disable-next-line react-hooks/rules-of-hooks
 const [nombre,setNombre] = useState('Ana');
 console.log(nombre);
 setNombre();

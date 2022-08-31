@@ -16,8 +16,8 @@ import {heroes} from '../data/heroes.mjs';
 //     return heroes.find( (heroe) => (heroe.id ===id))
 // }
 // Version 3
-const getHeroeById = (id) => heroes.find( (heroe) => (heroe.id ===id))
-const getHeroesByOwner = (owner) => heroes.filter( (heroe) => (heroe.owner ===owner))
+export const getHeroeById = (id) => heroes.find( (heroe) => (heroe.id ===id))
+export const getHeroesByOwner = (owner) => heroes.filter( (heroe) => (heroe.owner ===owner))
 
-console.log(getHeroeById(2));
-console.log(getHeroesByOwner('DC'));
+//console.log(getHeroeById(2));
+//console.log(getHeroesByOwner('DC'));
