@@ -1,3 +1,4 @@
+//Clase 24
 process.removeAllListeners('warning');
 
 const giphyApiKey = 'je1NNuZ8B2VB7CQDXOaeochJdDWlG2W2';
